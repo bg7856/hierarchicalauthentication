@@ -31,10 +31,11 @@ public class HSS {
             MOut.writeUTF(String.valueOf(GK));
             System.out.println("GK sent to MME");
 
-            int g = 128, p=93239, AggrKey=35687;
+          /*  int g = 128, p=93239, AggrKey=35687;
             System.out.println("Generator g = "+g);
             System.out.println("Prime p ="+p);
             System.out.println("Agreed Key = "+AggrKey);
+          */
 
             String IMSI1 = MIn.readUTF();
             String IMSI2 = MIn.readUTF();
